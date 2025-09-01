@@ -1,0 +1,35 @@
+[
+	{
+		"id": "tweak_dark_mode",
+		"title": "Тёмная тема",
+		"description": "Включает тёмную тему интерфейса приложения.",
+		"category": "Внешний вид",
+		"subcategory": "Темы",
+		"tags": [{ "name": "UI", "color": "#2563eb" }],
+		"status": "ready",
+		"onEnable": "document.body.classList.add('dark-mode')",
+		"onDisable": "document.body.classList.remove('dark-mode')"
+	},
+	{
+		"id": "tweak_disable_animations",
+		"title": "Отключить анимации",
+		"description": "Отключает все анимации для повышения производительности.",
+		"category": "Производительность",
+		"subcategory": "Система",
+		"tags": [{ "name": "Performance", "color": "#22c55e" }],
+		"status": "ready",
+		"onEnable": "document.body.classList.add('no-animations')",
+		"onDisable": "document.body.classList.remove('no-animations')"
+	},
+	{
+		"id": "tweak_custom_cursor",
+		"title": "Пользовательский курсор",
+		"description": "Устанавливает уникальный стиль курсора мыши.",
+		"category": "Внешний вид",
+		"subcategory": "Курсор",
+		"tags": [{ "name": "UI", "color": "#f59e42" }],
+		"status": "ready",
+		"onEnable": "document.body.style.cursor = 'crosshair'",
+		"onDisable": "document.body.style.cursor = ''"
+	}
+]
