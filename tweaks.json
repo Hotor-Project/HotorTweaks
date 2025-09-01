@@ -4,7 +4,7 @@
 		"title": "Тёмная тема",
 		"description": "Включает тёмную тему интерфейса приложения.",
 		"category": "Внешний вид",
-		"subcategory": "Темы",
+		"subcategory": "Performance",
 		"tags": [{ "name": "UI", "color": "#2563eb" }],
 		"status": "ready",
 		"onEnable": "document.body.classList.add('dark-mode')",
